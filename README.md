@@ -68,3 +68,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# Idea 
+Design from: [https://www.uidesigndaily.com/posts/sketch-mortgage-calculator-slider-day-1278],
+[https://www.thebalance.com/calculate-mortgage-315668]
