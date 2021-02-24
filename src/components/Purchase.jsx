@@ -2,17 +2,29 @@ import React from 'react';
 
 
 
-function Purchase(params) {
+function Purchase() {
     return(
         <div>
-         <h3>Purchase price: #450000</h3>
-         <h3>Equity:135000</h3>
-         <h3>Repayment time:25years</h3>
-         <h3>Loan Amount: 315000</h3>
+         <div className="budget-feedback alert alert-danger text-capitalize">
+                budget feedback
+              </div>
+              <form>
+                <h5 className="text-capitalize">please enter your budget</h5>
+                <input
+                  type="number"
+                  className="form-control budget-input"
+                  id="budget-input"
+                />
 
-         <h3>Estimated per Month: 1300</h3>
-
-
+                {/* <!-- submit button --> */}
+                <button
+                  type="submit"
+                  class="btn text-capitalize budget-submit"
+                  id="budget-submit"
+                >
+                  calculate
+                </button>
+              </form>
 
         </div>
     )
