@@ -8,13 +8,15 @@ function Purchase() {
          <div className="budget-feedback alert alert-danger text-capitalize">
                 budget feedback
               </div>
-              <form>
+              <form id="budget-form" className=" budget-form">
                 <h5 className="text-capitalize">please enter your budget</h5>
+                <div className="form-group">
                 <input
                   type="number"
                   className="form-control budget-input"
                   id="budget-input"
                 />
+                </div>
 
                 {/* <!-- submit button --> */}
                 <button
