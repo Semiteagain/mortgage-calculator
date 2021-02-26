@@ -3,6 +3,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import './index.css';
 
 
+
+
+
 function App() {
   return (
    <>
@@ -14,23 +17,24 @@ function App() {
 
 
        <div className='row mb-5'>
-       <div className="col-md-4 my-3 purchase"> 
-       <h5>Purchase price</h5>
-       <input type='range' max='300' min='20'/>
+       <div className="col-md-4 my-2 purchase"> 
+       <h5>Purchase price : {} </h5>  
+       <input type='number'/>
+       <input type='range' max='300' min='20' className='mx-5'/>
 
        </div>
 
 
 
 
-       <div className="col-md-4 my-3 equity"> <h5>Equity</h5>
+       <div className="col-md-4 my-2 equity"> <h5>Equity</h5>
        <input type='range' max='300' min='20'/>
          </div>
 
 
 
 
-       <div className="col-md-4 my-3 repayment"><h5>Repayment time</h5>
+       <div className="col-md-4 my-2 repayment"><h5>Repayment time</h5>
        <input type='range' max='300' min='20'/>
         </div>
        </div>
@@ -54,7 +58,7 @@ function App() {
         </div>
 
 
-
+           
 
 
        </div>
@@ -67,7 +71,15 @@ function App() {
 export default App;
 
 
-{/* <div className="container">
+
+
+  
+
+
+
+
+
+/* <div className="container">
 <div className="row">
   <div className="col-11 mx-auto pt-3">
     title
@@ -98,4 +110,4 @@ export default App;
 
 
 
-</div> */}
+</div> */
