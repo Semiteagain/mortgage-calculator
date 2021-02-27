@@ -1,3 +1,21 @@
+import React from 'react'
+
+function Formular(props) {
+   function calCu(p, r, n) {
+     let r = repayment()
+     return (r * p  * (Math.pow(1 + r), n)) / ((Math.pow(1 + r), n) - 1)
+   }
+
+
+   
+  return (
+    <>
+      
+    </>
+  )
+}
+
+export default Formular;
 
 
 
