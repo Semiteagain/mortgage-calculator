@@ -1,10 +1,10 @@
 import React from 'react'
 
 function Lists(props) {
+ 
 
-
-  function handleDelete(params) {
-      
+  function handleDelete() {
+      props.onDelete(props.id);
   }
 
     return (

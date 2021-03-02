@@ -13,6 +13,14 @@ function App() {
     });
   }
 
+  function deleteList(id) {
+    setitem(prevList =>{
+      prevList.filter((newList, index) => {
+        return index !== id;
+      })
+    })
+  }
+
   return (
     <>
       <div className="container">
@@ -72,6 +80,7 @@ function App() {
                       id={index}
                       title={itemList.title}
                       content={itemList.content}
+                      onDelete = {deleteList}
                     />
                   ;
                 })}
