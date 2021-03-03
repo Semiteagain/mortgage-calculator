@@ -6,7 +6,8 @@ function CreateList(props) {
 
     const [list, setList] = useState({
         title : '',
-        content : ''
+        content : '',
+        photo : <img  src='' alt=''  />
     })
 
     function handleChange(e) {
@@ -49,6 +50,8 @@ function CreateList(props) {
                  onChange = {handleChange}
                 
                 />
+
+                <img src='' alt=''  name='photo' value={list.photo} />
 
                 <button onClick={handleClick} >Add List</button>
             </form>
