@@ -7,7 +7,7 @@ function CreateList(props) {
     const [list, setList] = useState({
         title : '',
         content : '',
-        photo : <img  src='' alt=''  />
+        photo : []
     })
 
     function handleChange(e) {
@@ -50,8 +50,8 @@ function CreateList(props) {
                  onChange = {handleChange}
                 
                 />
-
-                <img src='' alt=''  name='photo' value={list.photo} />
+              <input type="file" name="photo" id="photo" value={list.photo}/>
+               
 
                 <button onClick={handleClick} >Add List</button>
             </form>

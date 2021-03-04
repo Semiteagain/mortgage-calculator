@@ -80,7 +80,6 @@ function App() {
                       id={index}
                       title={itemList.title}
                       content={itemList.content}
-                      photo = {itemList.photo}
                       onDelete = {deleteList}
                     />
                   ;
